@@ -18,3 +18,7 @@
 Auth::routes();
 
 Route::get('/', 'HomeController@index')->name('home');
+
+Route::get('/test', 'HomeController@submitConvert');
+
+Route::post('webhook/cloudconvert', '\CloudConvert\Laravel\CloudConvertWebhooksController');
