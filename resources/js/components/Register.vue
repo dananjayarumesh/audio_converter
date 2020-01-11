@@ -120,7 +120,7 @@ export default {
     };
   },
   mounted() {
-    // this.loadFaqs();
+  
   },
   watch: {},
   methods: {

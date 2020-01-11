@@ -60,7 +60,6 @@ export default new Vuex.Store({
             }
         },
         getUser(state) {
-            console.log(state.user);
             return state.user;
         }
     }

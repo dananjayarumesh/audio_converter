@@ -21,7 +21,7 @@
 
     <script>
         const BASE_URL = "{{url('/')}}/";
-        // const LOGGED_IN = {{Auth::check()?'1':'0'}};
+        const LOGGED_IN = {{Auth::check()?'1':'0'}};
     </script>
 </head>
 <body>
